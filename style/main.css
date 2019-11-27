@@ -3,17 +3,13 @@
   margin: 0;
 }
 :root {
-	/* primary colors  */
-	
-	--primary-green: hsl(171, 66%, 44%);
-	--primary-blue: hsl(233, 100%, 69%);
+  /* primary colors  */
 
-
+  --primary-green: hsl(171, 66%, 44%);
+  --primary-blue: hsl(233, 100%, 69%);
 }
 body {
-
-	font-family: 'Bai Jamjuree', sans-serif;
-
-	font-size: 18px;
-	
+  font-family: "Bai Jamjuree", sans-serif;
+  /* background: black; */
+  font-size: 18px;
 }
