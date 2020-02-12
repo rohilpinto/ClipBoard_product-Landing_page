@@ -7,6 +7,8 @@
 
   --primary-green: hsl(171, 66%, 44%);
   --primary-blue: hsl(233, 100%, 69%);
+
+  --text-
 }
 body {
   font-family: "Bai Jamjuree", sans-serif;
@@ -14,4 +16,46 @@ body {
   font-size: 18px;
 }
 
- 
+.hero__wrapper {
+  width: auto;
+  height: 750px;
+
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.hero__title {
+  color: hsl(210, 10%, 33%); /* remove if needed */
+  font-size: 2.3rem;
+}
+
+.hero__description {
+  width: 600px;
+  margin: 10px auto;
+  border: 1px solid #000;
+}
+
+.hero__btn_wrapper {
+  border: 1px solid #000;
+  padding: 25px;
+
+  display: flex;
+}
+
+.cta-btn {
+  border: none;
+  padding: .9rem;
+  margin: 15px;
+  border-radius: 30px;
+  color: w
+}
+
+.btn-ios {
+  background: var(--primary-green);
+}
+
+.btn-mac {
+  background: var(--primary-blue);
+}
